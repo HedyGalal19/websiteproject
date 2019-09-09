@@ -1,0 +1,99 @@
+
+.container{
+	margin-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.wrapper{
+	display: flex;
+	justify-content: center;
+}
+
+
+
+.dropdown-menu>li>a {
+    display: block !important;
+    padding: 3px 20px !important;
+    clear: both !important;
+    font-weight: 400 !important;
+    line-height: 1.42857143 !important;
+    color: #333 !important;
+    white-space: nowrap !important;
+	text-decoration:  none;
+	
+}
+
+.dropdown-menu>li>a:hover {
+	background-color: gainsboro;
+}
+
+
+.form-group .bootstrap-select.btn-group{
+	margin-bottom: 2rem !important;
+}
+
+.input-group{
+	justify-content: center;
+}
+.bootstrap-select.btn-group .dropdown-menu.inner {
+  display: block;
+	
+
+}
+
+.btn-group{
+	border: 1px solid #000000;
+	
+}
+.bootstrap-select>.dropdown-toggle{
+	background-color: #fff;
+}
+
+
+.dropdown-menu{
+border: 1px solid #000000;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+
+	font-size:13px;
+}
+.form-group {
+    margin-bottom: 0rem !important;
+}
+.input-group-addon{
+	background-color: #fff;
+}
+
+
+
+.card-block{
+	padding: 10px !important;
+}
+.card{
+	height: 100%;
+}
+
+#emailall, #emailnew, #emailunactive, #emailold{
+	margin-top: 1rem;
+	width: 10em;
+	background-color: green !important;
+}
+
+@media (max-width: 401px){
+	#allcustomers_filter, #newcustomers_filter, #oldcustomers_filter, #unactivecustomer_filter{
+		display: flex;
+		justify-content: center;
+	}
+}
+
+#customerview{
+	color: red;
+	
+}
+
+#sms{
+	margin-left: 20px;
+}

@@ -1,0 +1,246 @@
+/* ================================= */
+    /*===== Carousel =====*/
+/* ================================= */
+/*
+.carousel-inner {
+	margin-top: 4rem;
+}
+*/
+
+.btn-lg > a{
+	
+}
+.carousel .carousel-item {
+	
+  height: 40em;
+}
+.carousel .carousel-item > *:first-child {
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: inherit;
+}
+.carousel-caption{
+	bottom: 30% !important;
+}
+
+.carousel-caption h3{
+	font-size: 50px;
+	font-weight: 700;
+}
+
+.carousel-caption p{
+	font-size: 30px;
+}
+
+.carousel-caption #reg{
+	display: none;
+}
+
+/* ================================= */
+    /*===== Who We Are =====*/
+/* ================================= */
+.who-we-are-main-block {
+  background-color: #F4F4F4;
+  padding: 73px 0 73px;
+}
+.who-we-are-main-block .section-heading {
+  margin-bottom: 5px;
+}
+.who-we-are-points {
+  margin-top: 33px;
+}
+.who-we-are-block {
+  margin-bottom: 25px;
+}
+.who-we-are-icon {
+  width: 65px;
+  height: 60px;
+  font-size: 45px;
+  line-height: 1.5;
+  color: #0891FF;
+  text-align: center;
+  background-color: transparent;
+  
+  margin-right: 25px;
+  display: inline-block;
+  float: left;
+  -webkit-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease; 
+}
+.who-we-are-block:hover .who-we-are-icon { 
+  color: #FFF;
+  background-color: #0891FF;
+  border: solid 2px #0891FF;
+}
+.who-we-are-dtl {
+  display: table;
+}
+.who-we-are-heading {
+  text-transform: none;
+  line-height: 1.33;
+  margin-bottom: 4px;
+}
+.component-list li {
+    clear: both;
+    position: relative;
+    margin-bottom: 5px;
+	display: block;
+	
+}
+
+.component-list{
+	    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+
+.who-we-are-img {
+	text-align: center;
+}
+
+
+.booknow{
+	
+					width:100%;
+/*
+			display:inline-block;
+			line-height:25px;
+*/
+			text-align:center;
+			padding:20px 0px 20px 0px;
+}
+
+.btn-lg{
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 999px;
+    display: inline-block;
+    padding: 16px 38px 16px 38px;
+    margin: 10px 20px 10px 20px;
+    background-color: transparent;
+    border-color: #199CDB;
+    color: #199CDB;
+}
+	
+
+.title{
+	    font-size: 21px;
+    line-height: 32px;
+    letter-spacing: 2px;
+    display: inline-block;
+    margin: 25px 20px 10px 20px;
+    text-transform: uppercase;
+}
+
+
+/* ================================= */
+    /*===== Services =====*/
+/* ================================= */
+.services-main-block {
+  margin: 73px 0 7px;
+}
+.service-block {
+  margin-bottom: 62px;  
+  -webkit-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.service-icon img {
+  display: block;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+.service-heading {
+  line-height: 1.33;
+  text-transform: none;
+  margin: 17px 0 10px;
+  -webkit-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.service-block:hover .service-heading {
+  color: #0891FF;
+}
+
+
+/* ================================= */
+    /*===== Testimonials =====*/
+/* ================================= */
+.test  {
+	background-color: #F4F4F4;
+}
+
+.test .carousel .carousel-item {
+	
+  height: 20em;
+}
+ .test .carousel .carousel-item > *:first-child {
+
+  background-repeat: no-repeat;
+  background-size: cover;
+	   	background-position: center center;
+  height: inherit;
+	 	    width: 50%;
+    margin: 0 auto;
+	 
+}
+
+.test .carousel-item p {
+  	margin: 0;
+    color: black;
+	font-style: italic;
+}
+
+.test h3 {
+    color: black;
+	text-align: center;
+	padding-top: 30px;
+	font-weight: 700;
+}
+
+.test .carousel-inner {
+	margin-top: 0;
+}
+
+.parallax {
+    width: 100%;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+	
+}
+
+.parallax {
+    padding: 59px 0 63px;
+}
+
+
+@media (max-width: 576px){
+	.carousel-caption{
+	bottom: 10% !important;
+}
+}
+
+@media (max-width: 991px){
+.carousel-caption #reg{
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 15px;
+    display: inline-block !important;
+    padding: 8px 38px 8px 38px;
+    margin: 10px 20px 10px 20px;
+	font-size: 20px;
+}
+}

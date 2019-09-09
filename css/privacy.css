@@ -1,0 +1,25 @@
+.container {
+	margin-top: 2rem;
+	padding-bottom: 2rem;
+}
+h2, h3, h4, h5, h6 {
+	font-family: Poppins, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	font-weight: 700;
+	color: #000;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+
+
+.text-xs-center, .text-center {
+	text-align: center;
+	margin-bottom: 2rem !important;
+}
+
+#terms p, #lastul {
+    margin-bottom: 1.5rem !important;
+	
+}

@@ -1,0 +1,24 @@
+#customer_wrapper > div:first-child{
+	display: none !important;
+}
+
+#customer_wrapper > div:last-child{
+	display: none !important;
+}
+
+
+#graph,#customers{
+	height: 500px;
+}
+
+#customertitle{
+	    margin-left: 50px;
+	margin-bottom: 0 !important;
+}
+
+#customer_wrapper{
+	padding: 0 !important;
+}
+#customer_wrapper > div:nth-child(2){
+	padding: 0 !important;
+}

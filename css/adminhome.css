@@ -1,0 +1,74 @@
+
+div.dataTables_wrapper div.dataTables_filter input{
+	width: 150px !important;
+
+}
+
+#viewextra{ white-space: pre;}
+
+tr{
+	    border-bottom: 2px solid black;
+	margin: 10px 0;
+}
+
+
+#views{
+	display: inline-flex;
+}
+
+#sendsms{
+	margin-left: 5px;
+}
+
+tr .h5{
+	font-weight: 200 !important;
+	    line-height: 1.5
+}
+
+#bookbutton{
+	margin-bottom: 1rem;
+}
+#servicenote{
+	margin-top: 0.8rem !important;
+	margin-bottom: 2.5rem !important;
+}
+
+@media(max-width:416px) {  
+.table-responsive{
+		font-size: 12px;
+	}
+}
+
+@media (min-width: 768px){
+.col-md-6 {
+    -ms-flex: 0 0 50% !important;
+    /* flex: 0 0 50%; */
+    /* max-width: 50%; */
+}
+}
+section.dashboard-counts .row{
+	padding: 0 !important;
+}
+
+#confirmationDetail{
+	margin-bottom: 20px;
+}
+
+
+div.table-responsive>div.dataTables_wrapper>div.row>div[class^="col-sm-12 col-md-6"]:first-child{
+	display: none !important;
+}
+
+div.dataTables_wrapper div.dataTables_filter{
+	text-align: left !important;
+}
+
+.dataTables_info{
+	font-size: 10px !important;
+	 word-wrap: break-word;
+}
+
+.btn[name=edi], #sendsms { 
+   margin-top: 1rem;
+}
+
